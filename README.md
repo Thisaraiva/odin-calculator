@@ -1,6 +1,8 @@
 # odin-calculator
 Create an on-screen calculator using Javascript, HTML and CSS
 
+### Obs: The task for building the project can be found at the URL address `https://www.theodinproject.com/lessons/foundations-calculator`
+
 # Basic Calculator
 
 This project is a basic calculator developed using HTML, CSS, and JavaScript. It allows users to perform simple mathematical operations such as addition, subtraction, multiplication, and division. The calculator features a simple and intuitive interface with buttons for digits, operators, and additional functionalities like clearing the display and support for decimal numbers.

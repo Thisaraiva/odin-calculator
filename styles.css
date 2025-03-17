@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    color: black;    
+    padding: 15px;
+    margin-top: 15px;
+    
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    flex: 1;    
+}
+
+#calculator {
+    margin: 50px;
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    background-color: black;
+    border-radius: 7.5px;
+}
+
+.display {    
+    height: 95px;
+    width: 100%;    
+    color:darkgray;    
+    background-color: rgb(43, 44, 44);
+    border-radius: 7.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    overflow: hidden;
+}
+
+.secondary-display{    
+    padding: 5px 5px 0 0;
+    font-size: 1.5em;
+    text-align: right;
+    color: #666;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main-display{    
+    padding: 5px 5px 10px 0;
+    display: flex;
+    flex: 1;    
+    align-self: stretch;
+    justify-content: end;
+    white-space: nowrap;
+    font-size: 2.5em;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.result{
+    align-self: center;
+    font-size: 50px;
+}
+
+.numbers {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;    
+    gap: 5px;
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 7.5px;
+    background-color: rgb(43, 44, 44);
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#first,
+#second,
+#third,
+#fourth,
+#fifth {
+    display: flex;
+    gap: 5px;
+}
+
+.btn.reset{
+    background-color: rgb(216, 68, 68);
+    color: rgb(161, 0, 0);
+    font-weight: bold;    
+}
+
+.btn.backspace{
+    font-size: 40px;
+}
+
+.btn.equal{
+    background-color: green;
+    color: rgb(10, 71, 10);
+    font-weight: bold;    
+    
+}
+
+.divide,
+.multiply,
+.subtract,
+.plus {
+    background-color: rgb(255, 180, 67);
+}
+
+/* Footer */
+
+.footer {
+    padding: 15px;
+    color: beige;
+    display: flex;
+    font-size: small;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 60, 60);
+    gap: 10px;
+    align-self: stretch;
+}
